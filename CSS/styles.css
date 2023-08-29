@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Big Shoulders";
+    src: url(../ASSETS/fonts/BigShoulders-Regular.otf);
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-orange {
+    background-color: #ED800C !important;
+}
+nav {
+    z-index: 9;
+}
+
+body {
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+header {
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.bigShouldersFont {
+    font-family: "Big Shoulders";
+    font-size: 2rem !important; 
+}
+video {
+    
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+
+  #home {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+  }
+  #home::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(3px) brightness(.7);
+  }
+
+
+
+  /* #img-1 {
+    background-image: url(../ASSETS/img/restaurante-cocina-chef-personal-gerente.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  } */
+
+  /* MediaQuerys */
+  @media (max-width: 425px) {
+    #logoImg {
+        width: 72px;
+        height: 61px;
+    }
+    header {
+        height: 100vh;
+    }
+    
+  }
