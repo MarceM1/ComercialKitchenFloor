@@ -10,8 +10,11 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap Icons -->
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
@@ -25,8 +28,10 @@
   </head>
   <body>
     <header class="">
-      <nav class="navbar navbar-expand-md navbar-light bg-body-secondary p-0 py-3 py-md-0 px-2 px-md-0">
-        <div class="container-fluid p-0 m-0 d-flex ">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-body-secondary p-0 py-3 py-md-0 px-2 px-lg-0"
+      >
+        <div class="container-fluid p-0 m-0 d-flex">
           <a
             class="navbar-brand p-0 d-flex align-items-center fs-5 m-0 bigShouldersFont"
             href="#home"
@@ -87,13 +92,21 @@
         loop
         muted
       ></video>
-      <section id="home" class="d-flex align-items-end justify-content-center">
-        <article class="d-flex flex-column gap-3 mb-3">
-          <h1 class="display-3 text-white p-0 m-0 toup">
+      <section
+        id="home"
+        class="d-flex align-items-center align-items-md-end justify-content-center"
+      >
+        <article class="d-flex fl flex-column mb-3 px-2 gap-5 gap-md-3">
+          <h1 class="display-3 text-center text-white p-0 m-0 toup">
             Experts Kitchen Flooring for Business.
           </h1>
-          <div class="d-flex align-items-center justify-content-between">
-            <a href="#contact p-0 m-0">
+          <div
+            class="row d-flex align-items-center justify-content-between gap-2 gap-md-0"
+          >
+            <a
+              href="#contact "
+              class="col-12 col-md-6 d-flex align-items-center justify-content-center p-0 m-0"
+            >
               <button
                 type="btn"
                 class="btn btn-light rounded-pill px-5 py-2 fw-semibold toup"
@@ -101,9 +114,11 @@
                 CONTACT US TODAY
               </button>
             </a>
-            <h3 class="display-6 text-white p-0 m-0 toup">
-              We are in all US territory!
-            </h3>
+            <div class="col-12 col-md-6">
+              <h3 class="display-6 text-white text-center p-0 m-0 toup">
+                We are in all US territory!
+              </h3>
+            </div>
           </div>
         </article>
       </section>
@@ -156,7 +171,7 @@
         </article>
         <article class="mt-5">
           <div class="row">
-            <div class="col-12 col-md-5 order-3 order-md-1 m-0 p-0" id="img-1">
+            <div class="col-12 col-lg-7 order-3 order-lg-1 m-0 p-0" id="img-1">
               <img
                 src="./ASSETS/img/restaurante-cocina-chef-personal-gerente.jpg"
                 class="w-100 m-auto"
@@ -164,14 +179,14 @@
               />
             </div>
             <div
-              class="col-12 col-md-7 order-1 order-md-3 d-flex flex-column gap-3 m-0 p-0"
+              class="col-12 col-lg-5 order-1 order-lg-3 d-flex flex-column gap-3 m-0 p-0"
             >
               <h3 class="bg-body-secondary display-5 px-4 text-start toleft">
                 Advantages of
                 <strong class="fw-semibold">Eco-Grip®</strong> Restaurant
                 Flooring
               </h3>
-              <p class="fs-4 px-4 toleft">
+              <p class="fs-4 px-5 toleft">
                 <strong>Eco-Grip®</strong> presents a plethora of advantages
                 that set it apart from conventional flooring choices. When it
                 comes to meeting the specific needs of restaurant environments,
@@ -182,47 +197,71 @@
                 flooring requirements.
               </p>
               <div class="d-flex flex-column">
-                <h4 class="display-6 text-end px-5 bg-orange toleft py-2 text-white">
+                <h4
+                  class="display-6 text-end px-5 bg-orange toleft py-2 text-white"
+                >
                   Effortless Maintenance
                 </h4>
-                <p class=" px-4 text-end px-5 mt-5 toleft">
-                  <strong>Eco-Grip® boasts a waterproof, chemical-resistant, and
-                    grease-resistant nature</strong>. Its non-porous surface simplifies
-                  cleaning tasks, making it the perfect fit for bustling
-                  restaurant kitchens. With an integrated micro biocide,
-                  <strong>Eco-Grip® actively combats the growth of bacteria, mold, and
-                    mildew, further enhancing hygiene levels in your establishment
-                  and potentially improving your sanitation rating.</strong>
+                <p class="px-4 text-end px-5 mt-5 toleft">
+                  <strong
+                    >Eco-Grip® boasts a waterproof, chemical-resistant, and
+                    grease-resistant nature</strong
+                  >. Its non-porous surface simplifies cleaning tasks, making it
+                  the perfect fit for bustling restaurant kitchens. With an
+                  integrated micro biocide,
+                  <strong
+                    >Eco-Grip® actively combats the growth of bacteria, mold,
+                    and mildew, further enhancing hygiene levels in your
+                    establishment and potentially improving your sanitation
+                    rating.</strong
+                  >
                 </p>
               </div>
               <div class="d-flex flex-column">
-                <h4 class="display-6 text-end px-5 bg-orange toleft py-2 text-white">
+                <h4
+                  class="display-6 text-end px-5 bg-orange toleft py-2 text-white"
+                >
                   Cost-Effective Investment
                 </h4>
-                <p class=" px-4 text-end px-5 mt-5 toleft">
-                  <strong>Eco-Grip® emerges as a cost-effective solution</strong>, standing in
-                  direct competition with traditional flooring options like
-                  quarry tile and poured floors. Furthermore, <strong>Eco-Grip®</strong>
-                  eliminates the need for periodic re-grouting of tiles and the
-                  use of specialized anti-slip mats, resulting in <strong>significant
-                    long-term cost savings</strong>. Backed by a 5-year limited
-                  manufacturer's warranty, Eco-Grip® ensures not only safety and
-                  convenience but also a financially sound investment that can
-                  yield savings for years to come.
+                <p class="px-4 text-end px-5 mt-5 toleft">
+                  <strong>Eco-Grip® emerges as a cost-effective solution</strong
+                  >, standing in direct competition with traditional flooring
+                  options like quarry tile and poured floors. Furthermore,
+                  <strong>Eco-Grip®</strong> eliminates the need for periodic
+                  re-grouting of tiles and the use of specialized anti-slip
+                  mats, resulting in
+                  <strong>significant long-term cost savings</strong>. Backed by
+                  a 5-year limited manufacturer's warranty, Eco-Grip® ensures
+                  not only safety and convenience but also a financially sound
+                  investment that can yield savings for years to come.
                 </p>
               </div>
             </div>
           </div>
         </article>
         <article class="row m-0 p-0">
-          <div class="col-12 col-md-7 p-0 m-0 py-5 px-5 toright bg-body-secondary">
-            <h3 class="fw-semibold p-0 m-0">"Opt for Eco-Grip® for your restaurant flooring and enjoy upgraded safety, easy maintenance, and a smart investment. Transform your establishment with this revolutionary blend of innovation and practicality."</h3>
+          <div
+            class="col-12 col-md-7 p-0 m-0 py-5 px-5 toright bg-body-secondary"
+          >
+            <h3 class="fw-semibold p-0 m-0">
+              "Opt for Eco-Grip® for your restaurant flooring and enjoy upgraded
+              safety, easy maintenance, and a smart investment. Transform your
+              establishment with this revolutionary blend of innovation and
+              practicality."
+            </h3>
           </div>
-          <div class="col-12 col-md-5 p-0 m-0 pt-5 px-5 d-flex justify-content-center">
-            <div class="d-flex flex-column align-items-center justify-content-center gap-5 toleft">
+          <div
+            class="col-12 col-md-5 p-0 m-0 pt-5 px-5 d-flex justify-content-center"
+          >
+            <div
+              class="d-flex flex-column align-items-center justify-content-center gap-5 toleft"
+            >
               <h4 class="p-0 m-0 fw-bolder">GET YOUR ESTIMATED FREE NOW!</h4>
               <a href="#contact">
-                <button type="btn" class="btn bg-orange text-white rounded-pill">
+                <button
+                  type="btn"
+                  class="btn bg-orange text-white rounded-pill"
+                >
                   CONTACT US
                 </button>
               </a>
@@ -233,38 +272,114 @@
 
       <section class="vh-100 pt-5" id="about">
         <h1>About Us Section</h1>
-        <div class="d-flex flex-column align-items-center justify-content-end mt-5">
-          <img src="./ASSETS/img/engineering.png" class="w-25 " alt="">
+        <div
+          class="d-flex flex-column align-items-center justify-content-end mt-5"
+        >
+          <img src="./ASSETS/img/engineering.png" class="w-25" alt="" />
           <h2>Section in Construction</h2>
         </div>
       </section>
       <section class="vh-100" id="services">
         <h1>Servicess Section</h1>
-        <div class="d-flex flex-column align-items-center justify-content-end mt-5">
-          <img src="./ASSETS/img/engineering.png" class="w-25 " alt="">
+        <div
+          class="d-flex flex-column align-items-center justify-content-end mt-5"
+        >
+          <img src="./ASSETS/img/engineering.png" class="w-25" alt="" />
           <h2>Section in Construction</h2>
         </div>
       </section>
       <section class="vh-100" id="careers">
         <h1>Careers Section</h1>
-        <div class="d-flex flex-column align-items-center justify-content-end mt-5">
-          <img src="./ASSETS/img/engineering.png" class="w-25 " alt="">
+        <div
+          class="d-flex flex-column align-items-center justify-content-end mt-5"
+        >
+          <img src="./ASSETS/img/engineering.png" class="w-25" alt="" />
           <h2>Section in Construction</h2>
         </div>
       </section>
       <section class="vh-100" id="contact">
         <h1>Contact Section</h1>
-        <div class="d-flex flex-column align-items-center justify-content-end mt-5">
-          <img src="./ASSETS/img/engineering.png" class="w-25 " alt="">
+        <div
+          class="d-flex flex-column align-items-center justify-content-end mt-5"
+        >
+          <img src="./ASSETS/img/engineering.png" class="w-25" alt="" />
           <h2>Section in Construction</h2>
         </div>
       </section>
     </main>
 
+
+
     <!-- *********** -->
 
-    <footer class="bg-body-secondary">
-      <h1 class="p-0 m-0">FOOTER</h1>
+    <footer class="bg-body-secondary row">
+      <article
+        class="col-12 d-flex align-items-center justify-content-center justify-content-md-start align-items-start "
+      >
+        <div class="">
+          <img
+            src="./ASSETS/img/Logotipo_Isotipo Comercial Kitchen Floor-02.png"
+            width="124"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <h3 class="display-5">Comercial Kitchen Floor</h3>
+      </article>
+      <article
+        class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center align-items-start justify-content-center justify-content-md-start p-4"
+      >
+        <h4>Office date</h4>
+        <p class="fs-5">
+          Direccion
+        </p>
+        <a href="mailto:#"><p class="fs-5">
+          email
+        </p></a>
+        <p class="fs-5">
+          telefono
+        </p>
+        <ul class="d-flex align-items-center justify-content-around w-25 p-0 m-0">
+          <li><a href="https://facebook.com" target="_blank" referrerpolicy="no-referrer"><i class="bi bi-facebook fs-4"></i></a></li>
+          <li><a href="https://instagram.com" target="_blank" referrerpolicy="no-referrer"><i class="bi bi-instagram fs-4"></i></a></li>
+          <li><a href="https://google.com" target="_blank" referrerpolicy="no-referrer"><i class="bi bi-google fs-4"></i></a></li>
+        </ul>
+      </article>
+      <article
+        class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center align-items-start justify-content-center justify-content-md-start py-4 px-5 px-md-4"
+      >
+        <ul>
+          <li><a href="#home" class="fs-4">Home</a></li>
+          <li><a href="#about" class="fs-4">About us</a></li>
+          <li><a href="#services" class="fs-4">Services</a></li>
+          <li><a href="#careers" class="fs-4">Careers</a></li>
+          <li><a href="#contact" class="fs-4">Contact us</a></li>
+        </ul>
+      </article>
+      <article
+        class="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-center justify-content-md-start p-4"
+      >
+        <h4>Lorem ipsum dolor sit.</h4>
+        <p class="fs-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit tempore!
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114975.33365854244!2d-80.19187280534378!3d25.771251334996364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1694041718026!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
+
+      </article>
+
+      <article
+        class="col-12 d-flex align-items-center justify-content-center pt-3"
+      >
+        <small class="px-1 text-center"
+          >&copy;<a
+            href="https://marcelomelogno-webdevelopment.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><strong>Marcelo Melogno</strong></a
+          >
+          Desing & Web Development | September 2023</small
+        >
+      </article>
     </footer>
 
     <!-- *********** -->

@@ -3,6 +3,8 @@
     src: url(../ASSETS/fonts/BigShoulders-Regular.otf);
 }
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 *,
 ::before,
 ::after {
@@ -17,12 +19,22 @@ html {
     overflow-x: hidden;
 }
 
+ul, ol, li {
+    text-decoration: none;
+    list-style: none;
+}
+
 h1,h2,h3,h4,h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
 p,a {
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .bg-orange {
@@ -77,6 +89,9 @@ video {
   }
 
 
+  footer h3 {
+    font-family: "Big Shoulders";
+  }
 
   /* #img-1 {
     background-image: url(../ASSETS/img/restaurante-cocina-chef-personal-gerente.jpg);
