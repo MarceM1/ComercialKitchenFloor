@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5 {
 }
 
 p,a {
+    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -88,11 +89,37 @@ video {
     backdrop-filter: blur(3px) brightness(.7);
   }
 
-
+  .linkButtonHover {
+    transition: all .3s ease-in-out;
+  }
+  .linkButtonHover:hover  {
+    background-color: #f5b570 !important; 
+    color: black !important;
+  }
   footer h3 {
     font-family: "Big Shoulders";
   }
 
+  .footerIconHover {
+    transition: all .3s ease-in-out;
+  }
+  .footerIconHover:hover i{
+    font-size: 1.8rem !important;
+    color: #ED800C !important;
+  }
+  .textorange {
+    color: #ED800C;
+  }
+
+  form {
+    font-family: "Raleway", sans-serif;
+    color: black;
+    
+  }
+  
+ input:focus {
+   outline-offset: unset;
+ }
   /* #img-1 {
     background-image: url(../ASSETS/img/restaurante-cocina-chef-personal-gerente.jpg);
     background-position: center top;
