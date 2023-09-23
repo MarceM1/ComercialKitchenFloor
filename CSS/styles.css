@@ -19,6 +19,12 @@ html {
     overflow-x: hidden;
 }
 
+/* img {
+    max-width: 100%;
+    max-height: 100vh;
+    
+} */
+
 ul, ol, li {
     text-decoration: none;
     list-style: none;
@@ -93,7 +99,7 @@ video {
     transition: all .3s ease-in-out;
   }
   .linkButtonHover:hover  {
-    background-color: #f5b570 !important; 
+    background-color: #f8a144 !important; 
     color: black !important;
   }
   footer h3 {
@@ -112,7 +118,7 @@ video {
   }
 
   form {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif  ;
     color: black;
     
   }
@@ -128,6 +134,37 @@ video {
     
   } */
 
+  .imgBg {
+    height: 60vh;
+    background-image: url(../ASSETS/img/ServiciosImg/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+  }
+
+  .bgImgFoodtruck {
+    height: 60vh;
+    background-image: url(../ASSETS/img/ServiciosImg/foodtruck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+  }
+
+  .bgImgFoodtruck .row {
+    height: 100%;
+  }
+
+  .bgImgCooler {
+    height: 70vh;
+    background-image: url(../ASSETS/img/ServiciosImg/cooler.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    
+  }
   /* MediaQuerys */
   @media (max-width: 425px) {
     #logoImg {
