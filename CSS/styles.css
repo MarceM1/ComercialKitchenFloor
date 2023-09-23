@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Big Shoulders";
-    src: url(../ASSETS/fonts/BigShoulders-Regular.otf);
+  font-family: "Big Shoulders";
+  src: url(../ASSETS/fonts/BigShoulders-Regular.otf);
 }
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
@@ -8,15 +8,14 @@
 *,
 ::before,
 ::after {
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    max-width: 100vw;
-    min-height: 100vh;
-    overflow-x: hidden;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* img {
@@ -25,108 +24,111 @@ html {
     
 } */
 
-ul, ol, li {
-    text-decoration: none;
-    list-style: none;
+ul,
+ol,
+li {
+  text-decoration: none;
+  list-style: none;
 }
 
-h1,h2,h3,h4,h5 {
-    font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
 }
 
-p,a {
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+p,
+a {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .bg-orange {
-    background-color: #ED800C !important;
+  background-color: #ed800c !important;
 }
 nav {
-    z-index: 9;
+  z-index: 9;
 }
 
 body {
-    max-width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 header {
-    width: 100vw;
-    height: 70vh;
-    overflow: hidden;
-    position: relative;
+  width: 100vw;
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
 }
-
 
 .bigShouldersFont {
-    font-family: "Big Shoulders";
-    font-size: 2rem !important; 
+  font-family: "Big Shoulders";
+  font-size: 2rem !important;
 }
 video {
-    
-    z-index: 1;
-    min-width: 100%;
-    min-height: 100%;
-    overflow-x: hidden;
-  }
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
 
-  #home {
-    position: absolute;
-    z-index: 2;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    
-  }
-  #home::before{
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    backdrop-filter: blur(3px) brightness(.7);
-  }
+#home {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+#home::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(3px) brightness(0.7);
+}
 
-  .linkButtonHover {
-    transition: all .3s ease-in-out;
-  }
-  .linkButtonHover:hover  {
-    background-color: #f8a144 !important; 
-    color: black !important;
-  }
-  footer h3 {
-    font-family: "Big Shoulders";
-  }
+.linkButtonHover {
+  transition: all 0.3s ease-in-out;
+}
+.linkButtonHover:hover {
+  background-color: #f8a144 !important;
+  color: black !important;
+}
+footer h3 {
+  font-family: "Big Shoulders";
+}
 
-  .footerIconHover {
-    transition: all .3s ease-in-out;
-  }
-  .footerIconHover:hover i{
-    font-size: 1.8rem !important;
-    color: #ED800C !important;
-  }
-  .textorange {
-    color: #ED800C;
-  }
+.footerIconHover {
+  transition: all 0.3s ease-in-out;
+}
+.footerIconHover:hover i {
+  font-size: 1.8rem !important;
+  color: #ed800c !important;
+}
+.textorange {
+  color: #ed800c;
+}
 
-  form {
-    font-family: "Raleway", sans-serif  ;
-    color: black;
-    
-  }
-  
- input:focus {
-   outline-offset: unset;
- }
-  /* #img-1 {
+form {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+input:focus {
+  outline-offset: unset;
+}
+/* #img-1 {
     background-image: url(../ASSETS/img/restaurante-cocina-chef-personal-gerente.jpg);
     background-position: center top;
     background-repeat: no-repeat;
@@ -134,45 +136,72 @@ video {
     
   } */
 
-  .imgBg {
-    height: 60vh;
-    background-image: url(../ASSETS/img/ServiciosImg/restaurant.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom;
-  }
+.imgBg {
+  height: 60vh;
+  background-image: url(../ASSETS/img/ServiciosImg/restaurant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
 
-  .bgImgFoodtruck {
-    height: 60vh;
-    background-image: url(../ASSETS/img/ServiciosImg/foodtruck.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom;
-  }
+.bgImgFoodtruck {
+  height: 60vh;
+  background-image: url(../ASSETS/img/ServiciosImg/foodtruck.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
 
-  .bgImgFoodtruck .row {
-    height: 100%;
-  }
+.bgImgFoodtruck .row {
+  height: 100%;
+}
 
-  .bgImgCooler {
-    height: 70vh;
-    background-image: url(../ASSETS/img/ServiciosImg/cooler.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom;
-    
+.bgImgCooler {
+  height: 70vh;
+  background-image: url(../ASSETS/img/ServiciosImg/cooler.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.bgImgGimnastyc {
+  height: 60vh;
+  background-image: url(../ASSETS/img/ServiciosImg/gimnastyc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.bgImgGimnastyc::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(0.7);
+  z-index: 1;
+}
+
+.bgImgSchool {
+  height: 60vh;
+  background-image: url(../ASSETS/img/ServiciosImg/school.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+/* MediaQuerys */
+@media (max-width: 425px) {
+  #logoImg {
+    width: 72px;
+    height: 61px;
   }
-  /* MediaQuerys */
-  @media (max-width: 425px) {
-    #logoImg {
-        width: 72px;
-        height: 61px;
-    }
-    header {
-        height: 100vh;
-    }
-    
+  header {
+    height: 100vh;
   }
+}
