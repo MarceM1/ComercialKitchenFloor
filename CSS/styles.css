@@ -216,6 +216,10 @@ input:focus {
 .fontMontserrat {
   font-family: "Montserrat", sans-serif !important;
 }
+
+.drop-shadow {
+  filter: drop-shadow(-.8rem .8rem 1.5rem black);
+}
 /* MediaQuerys */
 @media (max-width: 425px) {
   #logoImg {
